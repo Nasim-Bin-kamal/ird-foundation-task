@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="px-10 w-full flex py-6 justify-end items-center ">
       <p className="text-[#6765F0] text-[20px] w-[141px] h-[38px] absoulte ">
-        <span className="text-white bg-[#6765F0]  rounded-[10px] px-2 py-1">
+        <span className="text-white bg-[#6765F0]  rounded-[10px] px-2 pb-1">
           Gym
         </span>{" "}
         Baran
@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button className="bg-[#264373] text-base text-white font-normal rounded-[10px] py-3 px-9">
+      <button className=" my-button text-white bg-[#264373] py-3 px-9">
         Log in
       </button>
     </nav>
