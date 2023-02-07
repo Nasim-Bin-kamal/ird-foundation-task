@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/styles";
-import { Hero, Navbar } from "@/components";
+import { HealthInfo, Hero, Navbar, StaticBar, Workout } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +15,11 @@ export default function Home() {
       </Head>
       <main>
         <div className="mx-10">
-          <div>
-            <Navbar />
-          </div>
-          <div>
-            <Hero />
-          </div>
+          <Navbar />
+          <Hero />
+          <HealthInfo />
+          <StaticBar />
+          <Workout />
         </div>
       </main>
     </>

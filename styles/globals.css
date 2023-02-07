@@ -13,3 +13,8 @@
   box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
   border-radius: 10px;
 }
+
+.bg-blue-gradient {
+  background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+  border-radius: 30px;
+}
