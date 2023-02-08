@@ -13,7 +13,7 @@ const StaticBar = () => {
       >
         {stats.map((stat, index) => (
           <div key={index} className={`${styles.flexBetween}`}>
-            <div className="flex justify-center items-center mr-7 p-[25px] bg-[#ffffff] backdrop-blur-[32px] opacity-20 rounded-[20px]">
+            <div className="flex justify-center items-center mr-7 p-[25px] bg-[#ffffff] bg-blur-[32px] bg-opacity-20 rounded-[20px]">
               <Image
                 className=""
                 src={stat.icon}
@@ -27,7 +27,7 @@ const StaticBar = () => {
                 {stat.title}
               </p>
               <button
-                className={` text-base text-white font-normal opacity-50 hover:opacity-80 leading-[28px] ${styles.flexBetween} gap-4`}
+                className={`font-poppins text-base text-white font-normal opacity-50 hover:opacity-80 leading-[28px] ${styles.flexBetween} gap-4`}
               >
                 Learn more
                 <Image

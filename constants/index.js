@@ -1,4 +1,4 @@
-import { crucifiedPose, dancerBalance, dancerMotion } from "@/assets";
+import { crucifiedPose, dancerBalance, dancerMotion, men } from "@/assets";
 
 export const navLinks = [
   { id: "home", title: "Home" },
