@@ -7,6 +7,7 @@ import dancerMotion from "./dancer-motion.png";
 import crucifiedPose from "./crucified-pose.png";
 import arrowRight from "./ArrowRight.png";
 import workoutImage from "./Workout.png";
+import menuIcon from "./menuIcon.png";
 
 export {
   caretRight,
@@ -18,4 +19,5 @@ export {
   crucifiedPose,
   arrowRight,
   workoutImage,
+  menuIcon,
 };

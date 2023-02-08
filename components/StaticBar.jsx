@@ -7,14 +7,20 @@ import React from "react";
 const StaticBar = () => {
   return (
     <div className={`mx-10 my-32 bg-blue-gradient`}>
-      <div className={`${styles.flexBetween} flex-row px-[85px] py-[87px]`}>
+      <div className={`${styles.flexBetween} px-[85px] py-[87px]`}>
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="flex justify-start items-center gap-x-[30px]"
+            className="flex justify-between items-center gap-x-[30px]"
           >
             <div className="bg-[#ffffff] backdrop-blur-[32px] opacity-20 w-[100px]  h-[100px] rounded-[20px]">
-              <Image src={stat.icon} alt="icon" width={50} height={50} />
+              <Image
+                className=""
+                src={stat.icon}
+                alt="icon"
+                width={50}
+                height={50}
+              />
             </div>
             <div>
               <p className="pb-3 text-white font-bold text-[20px]">

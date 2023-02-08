@@ -8,13 +8,58 @@
 
 .my-button {
   font-size: 16px;
-  font-family: poppins;
   font-weight: 400;
   box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
   border-radius: 10px;
 }
 
+.bg-logo {
+  background: #6765f0;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+}
+
+.bg-small-device {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
 .bg-blue-gradient {
   background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
   border-radius: 30px;
+}
+
+.purple_gradient {
+  position: absolute;
+  width: 884px;
+  height: 884px;
+  left: 290px;
+  top: -340px;
+  background: #d388ff;
+  opacity: 0.2;
+  filter: blur(282px);
+}
+
+.yellow_gradient {
+  position: absolute;
+  width: 884px;
+  height: 884px;
+  left: -345px;
+  top: 81px;
+
+  background: #f3b411;
+  opacity: 0.1;
+  filter: blur(282px);
+}
+
+.light_purple_gradient {
+  position: absolute;
+  width: 1031px;
+  height: 884px;
+  left: 663px;
+  top: 1115px;
+
+  background: #d388ff;
+  opacity: 0.2;
+  filter: blur(282px);
 }

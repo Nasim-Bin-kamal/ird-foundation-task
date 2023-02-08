@@ -6,11 +6,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className={` grid grid-cols-1 lg:grid-cols-2  ${styles.paddingY}`}
-    >
-      <div className="px-10 py-5">
+    <section className={` grid grid-cols-1 lg:grid-cols-2  ${styles.paddingY}`}>
+      <div
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
+      >
         <div>
           <h1 className="text-[#262524] text-[56px] font-bold leading-[73px] not-italic">
             Healthy in side <br className="sm:block hidden" />{" "}

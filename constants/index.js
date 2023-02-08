@@ -1,4 +1,4 @@
-import { crucifiedPose, dancerBalance } from "@/assets";
+import { crucifiedPose, dancerBalance, dancerMotion } from "@/assets";
 
 export const navLinks = [
   { id: "home", title: "Home" },
@@ -20,6 +20,6 @@ export const stats = [
   },
   {
     title: "Get flat belly in 30 days",
-    icon: crucifiedPose,
+    icon: dancerMotion,
   },
 ];
