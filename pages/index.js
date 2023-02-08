@@ -26,8 +26,12 @@ export default function Home() {
               <Hero />
             </div>
           </div>
+          <div className={`${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+              <HealthInfo />
+            </div>
+          </div>
 
-          {/* <HealthInfo /> */}
           {/* <StaticBar /> */}
           {/* <Workout /> */}
         </div>

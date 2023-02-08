@@ -13,7 +13,7 @@ const Hero = () => {
             Healthy in side <br className="sm:block hidden" />{" "}
             <span className="text-[#8382EB]">fresh</span> out side
           </h1>
-          <p className="text-base font-normal text-primary opacity-60 leading-[28px]">
+          <p className={`${styles.paragraph}`}>
             Exercise is a very important need for our body. Health and fitness
             will be obtained if you can do regular exercise and run a healthy
             routine.
