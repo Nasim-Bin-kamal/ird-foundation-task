@@ -32,8 +32,12 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <StaticBar /> */}
-          {/* <Workout /> */}
+          <div className={`${styles.boxWidth}`}>
+            <StaticBar />
+          </div>
+          <div className={`${styles.boxWidth}`}>
+            <Workout />
+          </div>
         </div>
       </main>
     </>

@@ -6,14 +6,14 @@ import React from "react";
 
 const StaticBar = () => {
   return (
-    <div className={`mx-10 my-32 bg-blue-gradient`}>
-      <div className={`${styles.flexBetween} px-[85px] py-[87px]`}>
+    <div className={` ${styles.paddingY} px-6 md:px-16 my-10`}>
+      <div
+        className={`${styles.flexStart} flex-col md:flex-row gap-y-8 
+        md:gap-y-0 bg-blue-gradient px-[28px] md:px-[80px] py-[34px] md:py-[87px]`}
+      >
         {stats.map((stat, index) => (
-          <div
-            key={index}
-            className="flex justify-between items-center gap-x-[30px]"
-          >
-            <div className="bg-[#ffffff] backdrop-blur-[32px] opacity-20 w-[100px]  h-[100px] rounded-[20px]">
+          <div key={index} className={`${styles.flexBetween}`}>
+            <div className="flex justify-center items-center mr-7 p-[25px] bg-[#ffffff] backdrop-blur-[32px] opacity-20 rounded-[20px]">
               <Image
                 className=""
                 src={stat.icon}
@@ -23,11 +23,11 @@ const StaticBar = () => {
               />
             </div>
             <div>
-              <p className="pb-3 text-white font-bold text-[20px]">
+              <p className="font-poppins text-white font-bold text-base md:text-[20px] leading-[28px]">
                 {stat.title}
               </p>
               <button
-                className={`text-base text-white font-normal opacity-50 leading-[28px] ${styles.flexBetween} gap-6`}
+                className={` text-base text-white font-normal opacity-50 hover:opacity-80 leading-[28px] ${styles.flexBetween} gap-4`}
               >
                 Learn more
                 <Image

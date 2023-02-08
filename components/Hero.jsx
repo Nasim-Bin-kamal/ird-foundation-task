@@ -10,7 +10,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col px-6 md:px-16 `}>
         <div>
           <h1 className="text-primary text-[28px] md:text-[56px] font-bold leading-[39px] md:leading-[73px] not-italic">
-            Healthy in side <br className="sm:block hidden" />{" "}
+            Healthy in side <br className="block md:hidden" />{" "}
             <span className="text-[#8382EB]">fresh</span> out side
           </h1>
           <p className={`${styles.paragraph}`}>
@@ -22,7 +22,7 @@ const Hero = () => {
             <Button icon={caretRight} />
             <button
               // type="button"
-              className={`${styles.flexBetween} my-button bg-white text-xs md:text-base lg:text-base px-3 md:px-4 py-4 `}
+              className={`${styles.flexBetween} my-button bg-white text-xs md:text-base lg:text-base px-3 md:px-4 py-3 md:py-4 `}
             >
               <Image className="mr-4" src={arrow} alt="arrow" />
               Learn More
