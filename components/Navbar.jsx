@@ -7,22 +7,22 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 md:px-8 justify-between items-center navbar">
-      <p className="text-[#6765F0] text-[20px] w-[141px] h-[38px] absoulte">
-        <span className="text-white bg-logo px-2 pb-1 ">Gym</span> Baran
+    <nav className="w-full flex py-6 md:px-10 justify-between items-center navbar">
+      <p className=" text-[#6765F0] w-[141px] h-[38px] absoulte">
+        <span className="text-white bg-logo px-2 py-1 ">Gym</span> baran
       </p>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={index}
-            className="cursor-pointer text-[16px] text-black font-normal mr-10"
+            className="font-poppins cursor-pointer text-[16px] text-black font-normal mr-10"
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
         <li>
-          <button className=" my-button text-white bg-[#264373] py-3 px-9">
+          <button className="font-poppins my-button text-white bg-[#264373] py-3 px-9">
             Log in
           </button>
         </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <button className=" my-button text-white bg-[#264373] py-2 px-4 ">
+              <button className="font-poppins my-button text-white bg-[#264373] py-2 px-4 ">
                 Log in
               </button>
             </li>

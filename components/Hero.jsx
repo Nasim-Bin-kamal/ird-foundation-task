@@ -22,14 +22,16 @@ const Hero = () => {
             <Button icon={caretRight} />
             <button
               // type="button"
-              className={`${styles.flexBetween} my-button bg-white text-xs md:text-base lg:text-base px-3 md:px-4 py-3 md:py-4 `}
+              className={`${styles.flexBetween} font-poppins my-button bg-white text-xs md:text-base lg:text-base px-3 md:px-4 py-3 md:py-4 `}
             >
               <Image className="mr-4" src={arrow} alt="arrow" />
               Learn More
             </button>
           </div>
           <div className="pt-6">
-            <p className="text-[#262524] text-base font-normal py-2">Brands:</p>
+            <p className=" font-poppins text-[#262524] text-base font-normal py-2">
+              Brands:
+            </p>
             <Image src={brands} alt="brands" />
           </div>
         </div>

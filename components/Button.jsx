@@ -5,7 +5,7 @@ const Button = ({ styles, icon }) => {
   return (
     <button
       type="button"
-      className={`${styles} bg-[#264373] text-white text-xs md:text-base px-4 md:px-6 py-3 md:py-4 my-6 my-button flex justify-start items-center`}
+      className={`${styles} bg-[#264373] font-poppins text-white text-xs md:text-base px-4 md:px-6 py-3 md:py-4 my-6 my-button flex justify-start items-center`}
     >
       Get Started{" "}
       <Image

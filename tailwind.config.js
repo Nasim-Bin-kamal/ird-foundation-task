@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        sportingGrotesque: ["sportingGrotesque"],
+        sportingGrotesque: ["sporting Grotesque"],
       },
     },
   },
