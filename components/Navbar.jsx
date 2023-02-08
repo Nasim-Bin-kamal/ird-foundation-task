@@ -7,8 +7,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center">
-      <p className="text-[#6765F0] text-[20px] w-[141px] h-[38px] absoulte ">
+    <nav className="w-full flex py-6 md:px-8 justify-between items-center navbar">
+      <p className="text-[#6765F0] text-[20px] w-[141px] h-[38px] absoulte">
         <span className="text-white bg-logo px-2 pb-1 ">Gym</span> Baran
       </p>
 

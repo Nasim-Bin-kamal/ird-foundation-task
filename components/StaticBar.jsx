@@ -6,9 +6,9 @@ import React from "react";
 
 const StaticBar = () => {
   return (
-    <div className={` ${styles.paddingY} px-6 md:px-16 my-10`}>
+    <div className={`${styles.paddingY} px-6 md:px-16 my-8`}>
       <div
-        className={`${styles.flexStart} flex-col md:flex-row gap-y-8 
+        className={`${styles.flexStart} flex-col md:flex-row gap-x-20 gap-y-8 
         md:gap-y-0 bg-blue-gradient px-[28px] md:px-[80px] py-[34px] md:py-[87px]`}
       >
         {stats.map((stat, index) => (
