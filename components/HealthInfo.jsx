@@ -4,7 +4,7 @@ import React from "react";
 const HealthInfo = () => {
   return (
     <div
-      className={`flex justify-between items-start md:items-center  flex-col md:flex-row  ${styles.paddingY} px-6 md:px-16 gap-10`}
+      className={`flex justify-between items-start md:items-center  flex-col md:flex-row  ${styles.paddingY} px-6 md:px-16 gap-y-4 md:gap-y-0 gap-x-0 md:gap-x-10`}
     >
       <h3 className="text-[#262524] font-bold md:font-normal text-[28px] md:text-[46px]">
         Healthy in side <br /> fresh out side

@@ -6,7 +6,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className={`grid grid-cols-1 lg:grid-cols-2  ${styles.paddingY}`}>
+    <section
+      className={`grid grid-cols-1 lg:grid-cols-2 gap-y-10 md:gap-y-0  ${styles.paddingY}`}
+    >
       <div className={`flex-1 ${styles.flexStart} flex-col px-6 md:px-16 `}>
         <div>
           <h1 className="text-primary text-[28px] md:text-[56px] font-bold leading-[39px] md:leading-[73px] not-italic">
@@ -36,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="object-contain">
+      <div className="object-contain ">
         <Image src={heroImage} alt="image" />
       </div>
     </section>
