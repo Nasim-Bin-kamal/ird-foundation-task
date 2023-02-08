@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center">
       <p className="text-[#6765F0] text-[20px] w-[141px] h-[38px] absoulte ">
         <span className="text-white bg-logo px-2 pb-1 ">Gym</span> Baran
       </p>
@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center ">
+      <div className="sm:hidden flex flex-1 justify-end items-center relative z-10">
         <Image
           className="w-[24px] h-[24px] object-contain "
           src={menuIcon}
@@ -45,7 +45,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={index}
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-black mb-4`}
+                className={`font-poppins font-normal cursor-pointer text-base text-primary mb-4`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
